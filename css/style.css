@@ -120,7 +120,7 @@ header {
     background-size: contain;
     background-position-x: center;
     background-position-y: bottom;
-    padding: 0 30px;
+    padding: 0 30px 186px;
 }
 
 .introduction img {
@@ -162,7 +162,7 @@ header {
     grid-template-columns: 380px 380px;
     justify-content: center;
     grid-gap: 96px 155px;
-    padding: 189px 30px 0;
+    padding: 0px 30px 0;
 }
 
 .feature {
@@ -447,10 +447,10 @@ footer .more-1, footer .more-2 {
 /* Responsivo */
 
 @media (max-width: 1400px) {
-
     /* Features */
 
     .features {
+        padding-top: 186px;
         grid-gap: 96px 0;
         justify-content: space-evenly;
     }
@@ -497,9 +497,17 @@ footer .more-1, footer .more-2 {
 }
 
 @media (max-width: 1200px) {
+
+    /* Introduction */
+
+    .introduction {
+        padding-bottom: 0;
+    }
+
     /* Features */
 
     .features {
+        padding-top: 186px;
         grid-template-columns: repeat(auto-fill, 360px);
         grid-gap: 96px 50px;
     }
