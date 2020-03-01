@@ -247,7 +247,7 @@ header {
 
 .feed_backs {
     display: grid;
-    grid-template-columns: repeat(auto-fill, 360px);
+    grid-template-columns: repeat(3, 360px);
     grid-gap: 35px;
     justify-content: center;
     padding: 0 30px 83px;
@@ -463,6 +463,12 @@ footer .more-1, footer .more-2 {
 
     .cta_text h1 {
         margin: 0 auto 20px auto;
+    }
+
+    /* Feed Backs */
+
+    .feed_backs {
+        grid-template-columns: repeat(auto-fill, 360px);
     }
     
     /* Footer */
